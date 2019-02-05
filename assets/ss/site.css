@@ -1,0 +1,74 @@
+body{
+    padding:0;
+    margin:0;
+    background-color:#121212;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f2f2f2;
+}
+#myCanvas{
+    padding:0;
+    margin:0 auto;
+    display:block;
+    background-color:black;
+}
+#topBar{
+    width:100%;
+    padding:0;
+    margin:0;
+}
+#leftBar{
+    padding:0;
+    margin:0;
+    position: absolute;
+    left:0px;
+}
+#rightBar{
+    padding:0;
+    margin:0;
+    position: absolute;
+    right:0px;
+}
+#bottomBar{
+    width:100%;
+    padding:0;
+    margin:0;
+    position: absolute;
+    bottom:0;
+}
+#title{
+    display: block;
+    float: left;
+    padding: 1% 2%;
+    color:white;
+}
+#navMain{
+    background-color:#0e0e0e;
+    overflow: hidden;
+}
+#mainlogo {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 17px;
+}
+#profPic{
+    float:right;
+    border-radius: 50%;
+    padding: 10px 15px;
+    margin-bottom:1;
+}
+#signOut{
+    padding-top:6;
+    float:right;
+    padding: 14px 15px;
+    color: #f2f2f2;
+    text-decoration: none;
+    text-align: center;
+    visibility: hidden;
+}
+#signOut:hover{
+    background-color: #666;
+}
+
